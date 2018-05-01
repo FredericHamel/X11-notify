@@ -106,8 +106,8 @@ int main(int argc, char **argv) {
       notify(&cl, battery_level);
       XDestroyWindow(cl.dpy, cl.win);
     }
-    sleep(2);
     XCloseDisplay(cl.dpy);
+    sleep(2);
   }
   return 0;
 }
