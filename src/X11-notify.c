@@ -95,8 +95,8 @@ float get_battery_level() {
 }
 
 int main(int argc, char **argv) {
-  const float LOW_BATTERY = 15;
-  const float HIGH_BATTERY = 80;
+  const float LOW_BATTERY = 10;
+  const float HIGH_BATTERY = 85;
   Client cl;
   float battery_level;
   for(;;) {
